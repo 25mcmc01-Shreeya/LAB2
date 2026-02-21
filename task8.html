@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Book Library</title>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="task8.css">
+</head>
+
+<body>
+
+<h1> My Book Library</h1>
+
+<div class="filter-box">
+    <select id="genre">
+        <option value="all">All Genres</option>
+    </select>
+
+    <input type="text" id="author" placeholder="Author name">
+
+    <input type="number" id="minPrice" placeholder="Min price">
+    <input type="number" id="maxPrice" placeholder="Max price">
+
+    <button id="filterBtn">Filter</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Price</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<script src="task8.js"></script>
+</body>
+</html>

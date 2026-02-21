@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #eef3f8;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* filter box */
+.filter-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.filter-box input,
+.filter-box select {
+    padding: 6px;
+    margin: 5px;
+}
+
+/* table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background-color: #2c7be5;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.no-record {
+    text-align: center;
+    padding: 15px;
+    color: red;
+}

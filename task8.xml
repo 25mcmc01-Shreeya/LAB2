@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>499</price>
+        <date>26-06-1997</date>
+    </book>
+
+    <book>
+        <title>Harry Potter and the Chamber of Secrets</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>520</price>
+        <date>02-07-1998</date>
+    </book>
+
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <price>450</price>
+        <date>21-09-1937</date>
+    </book>
+
+    <book>
+        <title>The Da Vinci Code</title>
+        <author>Dan Brown</author>
+        <genre>Mystery Thriller</genre>
+        <price>450</price>
+        <date>18-03-2003</date>
+    </book>
+
+    <book>
+        <title>Angels and Demons</title>
+        <author>Dan Brown</author>
+        <genre>Mystery Thriller</genre>
+        <price>420</price>
+        <date>01-05-2000</date>
+    </book>
+
+    <book>
+        <title>Inferno</title>
+        <author>Dan Brown</author>
+        <genre>Mystery Thriller</genre>
+        <price>480</price>
+        <date>14-05-2013</date>
+    </book>
+
+    <book>
+        <title>The God of Small Things</title>
+        <author>Arundhati Roy</author>
+        <genre>Literary Fiction</genre>
+        <price>399</price>
+        <date>04-04-1997</date>
+    </book>
+
+    <book>
+        <title>The Ministry of Utmost Happiness</title>
+        <author>Arundhati Roy</author>
+        <genre>Literary Fiction</genre>
+        <price>475</price>
+        <date>06-06-2017</date>
+    </book>
+
+    <book>
+        <title>The Fault in Our Stars</title>
+        <author>John Green</author>
+        <genre>Romance</genre>
+        <price>399</price>
+        <date>10-01-2012</date>
+    </book>
+
+    <book>
+        <title>The Immortals of Meluha</title>
+        <author>Amish Tripathi</author>
+        <genre>Mythological Fiction</genre>
+        <price>380</price>
+        <date>01-01-2010</date>
+    </book>
+
+</catalog>
