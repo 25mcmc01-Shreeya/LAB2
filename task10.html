@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabbed Navigation Demo</title>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="task10.js"></script>
+  <link rel="stylesheet" href="task10.css">
+</head>
+<body>
+
+<div class="page-wrap">
+
+  <h1 class="page-title">Tabbed Navigation Demo</h1>
+
+  <div id="tabsApp" class="tabs-widget">
+
+    <div class="tab-buttons">
+      <button class="tab-btn" data-target="#panel-home">Home</button>
+      <button class="tab-btn" data-target="#panel-about">About</button>
+      <button class="tab-btn" data-target="#panel-contact">Contact</button>
+    </div>
+
+    <div class="tab-sections">
+      <section id="panel-home" class="tab-section">
+        <h2>Home</h2>
+        <p>Welcome to the tab system built using a custom jQuery plugin.</p>
+      </section>
+
+      <section id="panel-about" class="tab-section">
+        <h2>About</h2>
+        <p>Name: K S Shreeya</p>
+        <p>Course: MCA</p>
+      </section>
+
+      <section id="panel-contact" class="tab-section">
+        <h2>Contact</h2>
+        <p>Email: 25mcmc01@uohyd.ac.in</p>
+        <p>Phone: +91-8130513442</p>
+      </section>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  $("#tabsApp").smartTabs({
+    activeClass: "is-active",
+    animationSpeed: 350,
+    startTab: "#panel-home"
+  });
+</script>
+
+</body>
+</html>
