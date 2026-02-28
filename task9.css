@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e293b;
+}
+
+.card {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.field-block {
+  margin-bottom: 18px;
+}
+
+.field-block label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #334155;
+}
+
+.field-block input,
+.field-block select {
+  width: 100%;
+  padding: 11px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.field-block input:focus,
+.field-block select:focus {
+  border-color: #6366f1;
+  outline: none;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #6366f1;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-submit:hover {
+  background: #4f46e5;
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.success-box {
+  display: none;
+  margin-top: 15px;
+  padding: 12px;
+  background: #ecfdf5;
+  border: 1px solid #86efac;
+  border-radius: 8px;
+  color: #065f46;
+  font-size: 14px;
+}
