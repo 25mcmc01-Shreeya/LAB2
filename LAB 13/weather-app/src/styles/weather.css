@@ -1,0 +1,46 @@
+.main-container{
+    text-align:center;
+    padding:40px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title{
+    margin-bottom:25px;
+}
+
+.search-box{
+    margin-bottom:20px;
+}
+
+.search-box input{
+    padding:8px;
+    margin-right:10px;
+}
+
+.search-box button{
+    padding:8px 14px;
+    cursor:pointer;
+}
+
+.weather-card{
+    margin-top:20px;
+    padding:20px;
+    background:#f3f3f3;
+    border-radius:10px;
+}
+
+.forecast-container{
+    margin-top:30px;
+}
+
+.forecast-card{
+    background:#e7f2ff;
+    margin:10px auto;
+    width:250px;
+    padding:10px;
+    border-radius:8px;
+}
+
+.error-text{
+    color:red;
+}
